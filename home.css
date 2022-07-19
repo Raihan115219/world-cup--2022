@@ -100,6 +100,8 @@ a {
 .right-blog .blog img {
   width: 100%;
   object-fit: cover;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
 }
 
 .blog-text {
