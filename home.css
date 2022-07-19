@@ -46,14 +46,13 @@ a {
 */
 /* ======blog card secion */
 .blog-section {
-  margin: 80px 0;
+  margin: 80px 15px;
   display: flex;
-  position: relative;
 }
 .blog-section .left-blog {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 20%;
   height: max-content;
   background: #000;
   justify-content: center;
@@ -77,14 +76,14 @@ a {
   color: #fff;
 }
 .right-blog {
-  width: 75%;
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   margin-left: 20px;
 }
 .right-blog .blog {
-  box-shadow: -1px -2px 8px 1px rgba(133, 131, 131, 0.86);
+  box-shadow: 2px 3px 13px 0px rgba(0, 0, 0, 0.5);
   border-radius: 8px;
 }
 
@@ -97,7 +96,7 @@ a {
   padding: 8px;
 }
 .blog-text p {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 
@@ -115,7 +114,7 @@ a {
 /* =====footer */
 footer {
   width: 100%;
-  height: 250px;
+  height: 100%;
   background: rgb(3, 30, 39);
   color: #fff;
   display: flex;
@@ -126,6 +125,10 @@ footer {
 .footer-title {
   margin-top: 50px;
 }
+.footer-title h1 {
+  font-size: 3rem;
+}
+
 .footer-bar ul {
   display: flex;
   justify-content: space-between;
@@ -147,4 +150,120 @@ footer {
 }
 .footer-icons ul li a i {
   font-size: 2rem;
+}
+/* =======responisve============= */
+
+@media (max-width: 720px) {
+  .banner-sections {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #161616;
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+  }
+  .banner-sections .left-part h1 {
+    font-size: 7vmin;
+    font-weight: 700;
+    text-align: center;
+  }
+  .banner-sections .left-part p {
+    margin: 0 0 30px 0;
+    padding: 20px 0 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .banner-sections .left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .banner-sections .right-part img {
+    margin-top: 60px;
+    margin-bottom: -15px;
+  }
+  .banner-sections .left-part a {
+    margin-top: -5px;
+  }
+
+  .blog-section {
+    margin: 30px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog-section .left-blog {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px 0;
+    margin-top: -20px;
+  }
+  .right-blog {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    margin-left: 20px;
+  }
+  .footer-bar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+  }
+  .footer-bar ul li {
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 721px) and (max-width: 992px) {
+  .left-blog {
+    margin-top: -50px;
+  }
+  .banner-sections .left-part h1 {
+    font-size: 6vmin;
+    font-weight: 700;
+  }
+  .banner-sections .right-part img {
+    margin-bottom: -55px;
+    margin-right: -45px;
+  }
+  .blog-section {
+    margin: 80px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog-section .left-blog {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px 0;
+  }
+  .right-blog {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-left: 20px;
+  }
 }
