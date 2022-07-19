@@ -37,10 +37,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 .banner-sections .left-part h1 {
-  font-size: 6vmin;
+  font-size: 8vmin;
   font-weight: 700;
 }
 .banner-sections .left-part p {
@@ -50,6 +49,7 @@ a {
 }
 .banner-sections .right-part img {
   margin-bottom: -45px;
+  margin-left: -75px;
 }
 /* ===========abner done 
 

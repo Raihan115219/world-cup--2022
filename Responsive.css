@@ -1,6 +1,9 @@
 /* =======responisve============= */
 
 @media (max-width: 720px) {
+  .container {
+    margin: 10px;
+  }
   .banner-sections {
     display: flex;
     flex-direction: column;
@@ -40,7 +43,7 @@
   }
 
   .blog-section {
-    margin: 30px 18px;
+    margin: 30px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,7 +65,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 15px;
-    margin-left: 20px;
+    margin-left: 8px;
   }
   .footer-bar ul {
     display: flex;
