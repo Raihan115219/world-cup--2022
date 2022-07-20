@@ -83,10 +83,13 @@ a {
   margin: 80px 15px;
   display: flex;
 }
+.left {
+  width: 250px;
+}
+
 .blog-section .left-blog {
   display: flex;
   flex-direction: column;
-  width: 20%;
   height: max-content;
   background: #000;
   justify-content: center;
@@ -94,17 +97,19 @@ a {
   border-radius: 8px;
   padding: 20px 0;
 }
-.left-blog button {
-  width: 165px;
+.left-blog a {
+  width: 230px;
   text-align: center;
   padding: 10px;
   color: #000;
+  background: #fff;
   outline: none;
   border: none;
   margin: 10px 10px;
   border-radius: 8px;
   cursor: pointer;
 }
+
 #active {
   background: red;
   color: #fff;
