@@ -214,3 +214,29 @@ footer {
 .footer-icons ul li a i {
   font-size: 2rem;
 }
+/* =======================================2nd web site css will written here============ */
+#matches {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 3px;
+  justify-content: center;
+  align-items: center;
+}
+#matches .match {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#matches .match img {
+  padding: 0 5px;
+  object-fit: cover;
+  overflow-x: hidden;
+}
+#match-schedule h3 {
+  padding: 10px 0;
+}
+#match-schedule p {
+  font-size: 12px;
+  text-align: center;
+}
