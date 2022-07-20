@@ -65,6 +65,9 @@
     padding: 20px 0;
     margin-top: -20px;
   }
+  .left-blog a {
+    border: 1px solid lightgray;
+  }
   .right-blog {
     width: 100%;
     display: grid;
@@ -120,7 +123,7 @@
     color: #000;
     background: #fff;
     outline: none;
-    border: none;
+    border: 1px solid lightgray;
     margin: 10px 10px;
     border-radius: 8px;
     cursor: pointer;
