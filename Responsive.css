@@ -67,6 +67,9 @@
     gap: 15px;
     margin-left: 8px;
   }
+  .right-blog .blog:hover {
+    transform: none;
+  }
   .footer-bar ul {
     display: flex;
     flex-direction: column;
@@ -90,7 +93,7 @@
     font-weight: 700;
   }
   .banner-sections .right-part img {
-    margin-bottom: -55px;
+    margin-bottom: -48px;
     margin-right: -45px;
   }
   .blog-section {
@@ -116,5 +119,22 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     margin-left: 20px;
+  }
+  .right-blog .blog:hover {
+    transform: none;
+  }
+
+  .view-more {
+    text-align: center;
+  }
+  .view-more button {
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
   }
 }
